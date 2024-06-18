@@ -1,0 +1,305 @@
+.img {
+    background-image: url("https://res.cloudinary.com/dhcvcxtfu/image/upload/v1716562348/Picsart_24-05-13_19-42-51-196_qw3sjc.jpg");
+    background-color: #cccccc;
+    height: 900px; /* You must set a specified height */
+    background-position: right; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    background-position: center top;
+    background-color: rgb(241, 234, 225);
+    top: 0;
+    align-items: center;
+    background-position-y: center;
+    border-inline-end-style: double;
+    
+  }
+  #cons{
+    
+    align-items: center;
+    background-position-y: center;
+    border-inline-end-style: double;
+    position: absolute;
+    top:64%;
+    left: 15%;
+    
+    
+
+  }
+  
+   
+
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    
+    
+
+}
+.navbar{
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: rgba(0, 0,0, 0.5);
+position: sticky;
+top: 0;
+font-family: "Lucida Console", "Courier New", monospace;
+
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+
+}
+.navbar ul li{
+    font-family: century;
+    font-size: 1.lrem;
+    font-size: 100;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #66FCF1;
+    padding: 8px 25px;
+    transition: all .5s ease;
+}
+
+.navbar ul li a:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 0 10px wheat;
+    justify-content: center;
+    min-height: 100vh;
+
+}
+
+#home{
+    display: flex;
+    flex-direction: column;
+    border: black;
+    height: 840px;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+
+
+}
+#home::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100px;
+    height: 900px;
+
+}
+.heading{
+    position: absolute;
+    top: 50%;
+    left: 22%;
+    transform: translate(-50%, -50%);
+    color: #66FCF1;
+    font-family:  "Lucida Console", "Courier New", monospace;
+
+}
+.btn{
+    position: absolute;
+    top:59%;
+    left: 22%;
+    transform: translate(-50%, -50%);
+    color: rgb(14, 13, 13);
+    box-shadow: 0 0 5PX white 0 0 10 white 0 0 15 white;
+    background-color: #45a295;
+    font-weight:bold;
+
+}
+#about{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px;
+     position: absolute;
+     top:190%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     background-color:black;
+     color: white;
+ 
+
+}
+#pic{
+    vertical-align: middle;
+    width: 140px;
+    height: 190px;
+    border-radius: 50%;
+    border-inline-end-style: double;
+    border-color: #66FCF1;
+    color: #66FCF1;
+
+  } 
+    
+  .h1{
+    color: #45a29e;
+  }  
+    
+
+#pic img{
+    width: 575px;
+    height: 400px;
+    color: #66FCF1;
+    border-inline-end-style: dotted;
+    background-color: #66FCF1;
+}
+#d2{
+    background-color: black;
+}
+#p{
+    color: #c5c6c5;
+    font-size: 110%;
+    font-family: "Times New Roman", Times, serif;
+
+    
+}
+#Education{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 3px;
+     position: absolute;
+     top:250%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     background-color:black;
+     color: white;
+}
+.co{
+  background-color: #66FCF1;
+}
+#pic1{ 
+    width: 100px;
+    height: 190px;
+    color: #66FCF1;
+    border-inline-end-style: double;
+    border-radius: 50%;
+
+}
+* {
+    box-sizing: border-box;
+    padding:jhg ;
+  }
+  
+  /* Style inputs */
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #decdcd;
+    margin-top: 9px;
+    margin-bottom: 16px;
+    resize: vertical;
+    left: 40%;
+    color: #eddfdf;
+  }
+  
+  input[type=submit] {
+    background-color:  #66FCF1;
+
+    color: rgb(27, 155, 215);
+    text-align: center;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  
+    
+  }
+  
+  input[type=submit]:hover {
+    background-color: #66FCF1;
+
+  }
+  .contact{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+     position: absolute;
+     top:280%;
+     background-color:#66FCF1;
+     color:#66FCF1;
+
+  }
+  
+  /* Style the container/contact section */
+  .container {
+    border-radius: 5px;
+    background-color: #161414;
+    padding: 30px;
+  }
+  
+  /* Create two columns that float next to eachother */
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 80px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+      padding: 50PX;
+    }
+}
+.cp{
+  vertical-align: middle;
+  width: 200px;
+  height: 390px;
+  border-radius: 50%;
+  border-inline-end-style: double;
+  border-color: #66FCF1;
+  color: #66FCF1;
+}
+.insta{
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%; 
+  background-color: black;
+}
+#avatar{
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  border: black;
+  height: 900px;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  top: 80px;
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  font-size: 18px;
+}
+#in{
+  top: 90%;
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  font-size: 18px;
+}
+.lin{ vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%; 
+  background-color: black;
+
+}
